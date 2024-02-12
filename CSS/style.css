@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/popins/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/roboto/static/RobotoCondensed-Black.ttf);
+}
+body{
+    background-color: black;
+}
+h1{
+    font-family: Poppins;
+    color: white;
+}
+.odd{
+    font-family: Poppins;
+    color: red;
+}
+.even{
+    font-family: Roboto;
+    color: blue;
+}

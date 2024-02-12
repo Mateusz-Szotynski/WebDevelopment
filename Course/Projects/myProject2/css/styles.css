@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.nav-container{
+    display: flex;
+}
+.nav-item{
+    margin: 10px;
+}
+a{
+    all: unset;
+}
+h1{
+    margin: 10px;
+}
+.btn-primary{
+    border-radius: 8%;
+    height: 30px;
+    width: 80px;
+    color: white;
+    background-color: rgb(95, 95, 238);
+}
+.btn-primary:hover{
+    border-radius: 8%;
+    height: 30px;
+    width: 80px;
+    color: rgb(209, 208, 208);
+    background-color: rgb(68, 68, 238);
+}

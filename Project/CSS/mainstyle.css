@@ -1,0 +1,58 @@
+@font-face {
+    font-family: RoboSlab-Black;
+    src: url(../fonts/static/RobotoSlab-Black.ttf);
+}
+@font-face {
+    font-family: RoboSlab-Regular;
+    src: url(../fonts/static/RobotoSlab-Regular.ttf);
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+}
+#header{
+    background-color: rgb(92, 153, 153)
+}
+#companyLogo{
+    margin-right: 20px;
+    border-style: outset;
+    border-color: rgb(70, 117, 117);
+    border-width: 5px;
+    border-radius: 10px;
+    border-right-style:hidden;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+#companyName{
+    position: fixed;
+    top: 0px;
+    text-shadow: 3px 1px 5px;
+    font-size:xx-large;
+    font-family: RoboSlab-Black;
+    font-style: italic;
+}
+.upperNavi{
+    outline: 0px;
+    width: 250px;
+    height: 50px;
+    margin-left: 100px;
+    position: relative;
+    font-family: RoboSlab-Black;
+    background-color:aliceblue;
+    border-radius: 10px;
+    border-width: 3px;
+}
+.upperNavi:hover{
+    background-color: rgb(216, 216, 216);
+}
+.login{
+    float: right;
+    font-family: RoboSlab-Black;
+    position: relative;
+    right: 0%;
+    top: 0%;
+}
+.login:hover{
+    background-color: rgb(216, 216, 216);
+}

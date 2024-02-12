@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+        }
+        .parent{
+            width: 250px;
+            height: 250px;
+            background-color: red;
+            position: relative;
+            display: inline-block;
+        }
+        .child{
+            background-color: aqua;
+            position: absolute;
+        }
+        #child1{
+            right: 0;
+        }
+        .grandchild{
+            width: 25px;
+            height: 25px;
+            background-color: black;
+            position: absolute;
+            right: 0;
+        }
+
+    </style>
+</head> 
+<body>
+    <div class="box parent">
+        <div class="box child" id="child1">
+            <div class="box grandchild">
+
+            </div>
+
+        </div>
+        <div class="box child" id="child2">
+            <div class="box grandchild">
+
+            </div>
+
+        </div>
+    </div>
+    <div class="box parent">
+        <div class="box child" id="child1">
+            <div class="box grandchild">
+
+            </div>
+
+        </div>
+        <div class="box child" id="child2">
+            <div class="box grandchild">
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
